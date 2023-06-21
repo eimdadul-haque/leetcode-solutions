@@ -1,0 +1,5 @@
+C:\Users\EIMDADUL\Desktop\Practice\leetcode-solutions\28. Find the Index of the First Occurrence in a String\obj\Debug\net7.0\28. Find the Index of the First Occurrence in a String.csproj.AssemblyReference.cache
+C:\Users\EIMDADUL\Desktop\Practice\leetcode-solutions\28. Find the Index of the First Occurrence in a String\obj\Debug\net7.0\28. Find the Index of the First Occurrence in a String.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EIMDADUL\Desktop\Practice\leetcode-solutions\28. Find the Index of the First Occurrence in a String\obj\Debug\net7.0\28. Find the Index of the First Occurrence in a String.AssemblyInfoInputs.cache
+C:\Users\EIMDADUL\Desktop\Practice\leetcode-solutions\28. Find the Index of the First Occurrence in a String\obj\Debug\net7.0\28. Find the Index of the First Occurrence in a String.AssemblyInfo.cs
+C:\Users\EIMDADUL\Desktop\Practice\leetcode-solutions\28. Find the Index of the First Occurrence in a String\obj\Debug\net7.0\28. Find the Index of the First Occurrence in a String.csproj.CoreCompileInputs.cache
