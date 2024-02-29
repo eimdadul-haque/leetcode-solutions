@@ -1,24 +1,30 @@
-﻿public class Program
+﻿class Program
 {
-    public static void Main(string[] args) {
-        Program program = new();
-        var res = program.TwoSum(new int[]{2,7,11,15}, 9);
+    private Program() { }
+
+    public static Program getProgram()
+    {
+        return new Program();
     }
-    
-    public int[] TwoSum(int[] nums, int target) {
 
-        Dictionary<int, int> indices = new Dictionary<int, int>();
-        for (int i = 0; i < nums.Length; i++)
+    public static void Main()
+    {
+        var result = getProgram().TwoSum(new int[] {1,1,1,1,1,4,1,1,1,1,1,7,1,1,1,1,1}, 11);
+    }
+
+    public int[] TwoSum(int[] nums, int target)
+    {
+        var twoSumDictionaty = new Dictionary<int, int>();
+        int length = nums.Length;
+
+        for (int i = 0; i < length; i++)
         {
-            int difference = target - nums[i];
-            if (indices.ContainsKey(difference))
-            {
-                return new int[] {indices[difference], i};
-            }
-
-            indices[nums[i]] = i;
+            int key = target - nums[i];
+            if (twoSumDictionaty.ContainsKey(key))
+                return new int[] { twoSumDictionaty[key], i };
+            twoSumDictionaty[nums[i]] = i;
         }
 
-        return nums;
+        return null;
     }
 }
