@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1929. Concatenation of Array", "1929. Concatenation of Array.csproj", "{DBD8AAE2-56E4-4D44-B05E-D590FA672DF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBD8AAE2-56E4-4D44-B05E-D590FA672DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD8AAE2-56E4-4D44-B05E-D590FA672DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD8AAE2-56E4-4D44-B05E-D590FA672DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD8AAE2-56E4-4D44-B05E-D590FA672DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {717B5113-39F8-4222-83E3-5481CB1CFED9}
+	EndGlobalSection
+EndGlobal
