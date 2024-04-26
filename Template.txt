@@ -1,0 +1,14 @@
+class Program
+{
+    private Program() { }
+
+    public static Program getProgram()
+    {
+        return new Program();   
+    }
+
+    public static void Main()
+    {
+
+    }
+}
