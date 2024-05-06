@@ -13,6 +13,6 @@ public class Solution
         int[] result = new int[nums.Length];
         for(int i = 0; i < nums.Length; i++)
             result[i] = nums[nums[i]];
-        return nums;
+        return result;
     }
 }
