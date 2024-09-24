@@ -1,24 +1,28 @@
-﻿public class Program
+﻿var prices = new int[] { 7, 1, 5, 3, 6, 4 };
+var solution = new Solution();
+var result = solution.MaxProfit(prices);
+Console.WriteLine(result);
+
+public class Solution
 {
-    public static void Main(string[] args)
+    public int MaxProfit(int[] prices)
     {
-        int res = MaxProfit(new int[] {1,2,4,2,5,7,2,4,9,0,9});
-    }
-    public static int MaxProfit(int[] prices)
-    {
-        int maxProfit = 0, 
-        left = 0;
-        
-        for (int right = 1; right < prices.Length; right++)
+        if (prices.Length == 0)
         {
-            if(prices[left] < prices[right])
-            {
-                int profit = prices[right] - prices[left];
-                if(profit > maxProfit)
-                   maxProfit = profit;
+            return 0;
+        }
+
+        int minPrice = int.MaxValue;
+        int maxProfit = 0;
+
+        foreach (int price in prices) {
+            if (price < minPrice) { 
+                minPrice = price;
             }
-            else
-                left = right;
+            else if (price - minPrice > maxProfit)
+            {
+                maxProfit = price - minPrice;
+            }
         }
 
         return maxProfit;
