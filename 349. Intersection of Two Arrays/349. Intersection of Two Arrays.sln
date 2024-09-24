@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "349. Intersection of Two Arrays", "349. Intersection of Two Arrays.csproj", "{DDD60487-DEEB-4070-B3FF-D31AC3EC8162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDD60487-DEEB-4070-B3FF-D31AC3EC8162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDD60487-DEEB-4070-B3FF-D31AC3EC8162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDD60487-DEEB-4070-B3FF-D31AC3EC8162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDD60487-DEEB-4070-B3FF-D31AC3EC8162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EB0CCF1-6A1E-4AE9-8CB0-32D87BC17775}
+	EndGlobalSection
+EndGlobal
