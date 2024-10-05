@@ -1,30 +1,20 @@
-﻿class Program
-{
-    private Program() { }
+﻿var nums = new int[] {3,2,2,3};
+int val = 3;
+var solution = new Solution();
+var result = solution.RemoveElement(nums, val);
+Console.WriteLine($"Result: {result}");
 
-    public static Program getProgram()
-    {
-        return new Program();
-    }
 
-    public static void Main(string[] args)
-    {
-        var resutl = getProgram().RemoveElement(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2);
-    }
-
-    public int RemoveElement(int[] nums, int val)
-    {
+public class Solution {
+    public int RemoveElement(int[] nums, int val) {
         int k = 0;
-        for(int i = 0;  i < nums.Length; i++)
+        for (int i = 0; i < nums.Length; i++)
         {
-            if (val != nums[i])
-            {
+            if(nums[i] != val){
                 nums[k] = nums[i];
-                k += 1;
-            }     
+                k++;
+            }
         }
-
         return k;
     }
-
 }

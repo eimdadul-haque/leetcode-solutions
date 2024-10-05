@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.6.33723.286
+VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27. Remove Element", "27. Remove Element.csproj", "{10E5AC5A-8BC7-472D-9303-262B9E3F7198}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "27. Remove Element", "27. Remove Element.csproj", "{5D0548F8-7FB6-4D93-9B88-F0486FBA2153}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{10E5AC5A-8BC7-472D-9303-262B9E3F7198}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10E5AC5A-8BC7-472D-9303-262B9E3F7198}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10E5AC5A-8BC7-472D-9303-262B9E3F7198}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10E5AC5A-8BC7-472D-9303-262B9E3F7198}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0548F8-7FB6-4D93-9B88-F0486FBA2153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0548F8-7FB6-4D93-9B88-F0486FBA2153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0548F8-7FB6-4D93-9B88-F0486FBA2153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0548F8-7FB6-4D93-9B88-F0486FBA2153}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {550CBCF7-63BE-4289-9AA5-B87A8CE00205}
+		SolutionGuid = {E157F492-97B3-4C57-B0B8-511F013C0AE3}
 	EndGlobalSection
 EndGlobal
