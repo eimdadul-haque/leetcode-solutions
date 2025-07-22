@@ -1,25 +1,32 @@
-﻿class Program
-{
-    public static void Main(string[] args)
-    {
-        var res = MajorityElement(new int[] { 2, 2, 1, 3, 4, 6, 8 });
-    }
+﻿
+var nums = new int[] {1,3,4,5,6,6,6};
+var solution = new Solution();
+var result = solution.MajorityElement(nums);
 
-    public static int MajorityElement(int[] nums)
-    {
-        int majorityElement = 0,
-            count = 0;
-
-        foreach(int num in nums)
-        {
-            if (count.Equals(0))
-                majorityElement = num;
-            if (majorityElement.Equals(num))
-                count++;
-            else
-                count--;
+public class Solution {
+    public int MajorityElement(int[] nums) {
+        var dictionary = new Dictionary<int, int>();
+        foreach(int num in nums) {
+            if(dictionary.ContainsKey(num)){
+                dictionary[num] = dictionary[num] + 1;
+            }
+            else {
+                dictionary[num] = 1;
+            }
         }
 
-        return majorityElement;
+        int key = 0;
+        int maxCount = 0;
+
+        foreach (var item in dictionary)
+        {
+            if (item.Value > maxCount)
+            {
+                maxCount = item.Value;
+                key = item.Key;
+            }
+        }
+
+        return key;
     }
 }
